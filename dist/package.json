@@ -1,0 +1,36 @@
+{
+  "name": "react-create-styled-component",
+  "version": "0.0.1",
+  "description": "Util to create styled components with CSS-in-JS",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSpicyMeatball/react-create-styled-component.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "styled",
+    "styled component"
+  ],
+  "author": "Michael Paravano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheSpicyMeatball/react-create-styled-component/issues"
+  },
+  "homepage": "https://github.com/TheSpicyMeatball/react-create-styled-component#readme",
+  "dependencies": {
+    "emotion": "^10.0.27"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
+}
